@@ -6,7 +6,8 @@
   "repository": "https://github.com/traduora/traduora",
   "scripts": {
     "fmt": "prettier --write --list-different \"**/*.ts\"",
-    "check-fmt": "prettier --check \"**/*.ts\""
+    "check-fmt": "prettier --check \"**/*.ts\"",
+    "start": "bin/build.sh && bin/start.sh"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
